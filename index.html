@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project HomeDemo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./vendors/bootstrap5.3/bootstrap.min.css">
+  <link rel="stylesheet" href="./vendors/animate.css/animate.min.css">
+  <link rel="stylesheet" href="./vendors/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="my-page">
+  <!-- navbar -->
+  <nav id="navBar" class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">HomeDeco</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" aria-current="page" href="#aboutUs">About Us</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#approach">Approach</a>
+          <a class="nav-link" href="#ourServices">Our Services</a>
+          <a class="nav-link" href="#whatWeDo">What We Do</a>
+          <a class="nav-link" href="#recentInsights">Recent Insights</a>
+          <a class="nav-link" href="#contactUs">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- header -->
+  <div id="header" class="bg-netural-gray">
+    <div class="row">
+      <div class="col-md-6">
+        <video autoplay muted loop id="myVideo">
+          <source src="./images/background_video.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="col-md-6 content-container">
+        <div class="content fadein">
+          <h3>TIMELESS DESIGN, LASTING QUALITY</h3>
+          <h1>Design for last, built for last</h1>
+        </div>
+        <img src="./images/backgroung_img.webp" alt="backgroung_img" class="d-none d-sm-block">
+      </div>
+    </div>
+  </div>
+
+  <!-- About us -->
+  <div id="aboutUs" class="container-fluid bg-light-sage-green">
+    <hr>
+    <div class="row">
+      
+      <div class="col-md-8 mb-4 slide-object">
+
+        <h3>We help to achieve goals</h3>
+        <h2>Colram® is an architecture and
+          design studio that partners with
+          clients worldwide to build iconic
+          buildings, landscapes, interior
+          and digital experiences.</h2>
+        <button class="btn btn-black">
+          <i class="fa-solid fa-square-arrow-up-right icon-sm"></i>
+          Our Services
+        </button>
+        <button class="btn btn-matcha">
+          <i class="fa-solid fa-square-phone icon-sm]"></i>
+          Call Us</button>
+      </div>
+
+      <div class="col-md-4">
+        <h3 style="font-weight: bold;">From the first sketch, our team immerses itself in the soul of the project - the
+          initial concepts and ideas that shape everything from the structure to the product design.</h3>
+        <h3>We embrace the creative challenge of every assignment, preparing several distinct design proposals that
+          honor the client's vision.</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div id="projects" class="container-fluid bg-netural-gray">
+    <!-- first row -->
+    <div class="row">
+      <div class="col-6">
+        <h2>Projects</h2>
+      </div>
+      <div class="col-6 d-flex flex-row-reverse">
+        <button class="btn btn-black">
+          <i class="fa-solid fa-square-arrow-up-right icon-sm"></i>
+          View All
+        </button>
+      </div>
+    </div>
+    <!-- second row -->
+    <div class="row">
+      <div class="col-md-3 mb-3">
+        <div class="container-relative">
+          <img src="./images/Modern-terracotta.webp" alt="modern">
+          <button class="btn btn-image">
+            <i class="fa-solid fa-circle-play"></i>
+          </button>
+        </div>
+        <h4>Modern terracotta business center with geometric facade</h4>
+        <h5>Béziers, France • 23,220 M2</h5>
+      </div>
+      <div class="col-md-3 mb-3">
+        <div class="container-relative">
+          <img src="./images/summer-house.webp" alt="sumbber-house">
+          <button class="btn btn-image">
+            <i class="fa-solid fa-circle-play"></i>
+          </button>
+        </div>
+        <h4>Scandinavian summer house with huge windows in Denmark</h4>
+        <h5>Troldhede, Denmark • 265 M2</h5>
+      </div>
+      <div class="col-md-6 mb-3">
+        <div class="container-relative">
+          <img src="./images/multi-story-residential.webp" alt="multi-story-building">
+          <button class="btn btn-image">
+            <i class="fa-solid fa-circle-play"></i>
+          </button>
+        </div>
+        <h4>SModern multi-story residential building with a lush courtyard</h4>
+        <h5>Nürnberg, Germany • 12,780 M2</h5>
+      </div>
+    </div>
+    <!-- third row -->
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <div class="container-relative">
+          <img src="./images/mountain-minimalist.webp" alt="mountain-minimalist">
+          <button class="btn btn-image">
+            <i class="fa-solid fa-circle-play"></i>
+          </button>
+        </div>
+        <h4>Mountain minimalist living space integrated with natural boulders</h4>
+        <h5>Grande Tête, France • 225 M2 M2</h5>
+      </div>
+      <div class="col-md-6 mb-3">
+        <div class="container-relative">
+          <img src="./images/schoko.webp" alt="schoko-house">
+          <button class="btn btn-image">
+            <i class="fa-solid fa-circle-play"></i>
+          </button>
+        </div>
+        <h4>Schuko® systems central commercial building with glass facades</h4>
+        <h5>Malmö, Sweden • 26,370 M2</h5>
+      </div>
+    </div>
+    <!-- fourth row -->
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <div class="container-relative">
+          <img src="./images/foshan-guanyao-museum.webp" alt="foshan-guanyao">
+          <button class="btn btn-image">
+            <i class="fa-solid fa-circle-play"></i>
+          </button>
+        </div>
+        <h4>Modern renovation of Foshan Guanyao museum, culture and art center</h4>
+        <h5>Düsseldorf, Düsseldorf • 16,250 m2</h5>
+      </div>
+      <div class="col-md-3 mb-3">
+        <div class="container-relative">
+          <img src="./images/private-apato.webp" alt="private-apato">
+          <button class="btn btn-image">
+            <i class="fa-solid fa-circle-play"></i>
+          </button>
+        </div>
+        <h4>Clean and sunny private residential apartments with a wooden terrace</h4>
+        <h5>Valencia, Spain • 195 m2</h5>
+      </div>
+      <div class="col-md-3 mb-3">
+        <div class="container-relative">
+          <img src="./images/inter-high-school.webp" alt="inter-high-school">
+          <button class="btn btn-image">
+            <i class="fa-solid fa-circle-play"></i>
+          </button>
+        </div>
+        <h4>Bristol International High School with geometric, minimalistic shapes</h4>
+        <h5>Bristol, England • 23.500 m2</h5>
+      </div>
+    </div>
+  </div>
+
+  <!-- Approach -->
+  <div id="approach" class="container-fluid bg-light-graysih-green">
+    <hr>
+    <!-- first row -->
+    <div class="row mb-3">
+      <div class="col-md-9 approach-text">
+        <h5>A tailored approach</h5>
+        <h2>We understand that your project is
+          one-of-a-kind. We adopt a flexible
+          approach, allowing us to create
+          a plan and a budget that fits your
+          specific needs.</h2>
+      </div>
+      <div class="col-md-3">
+        <h4>From the first sketch, our team immerses itself in the soul of the project – the initial concepts and ideas
+          that shape everything from the structure to the product design.</h4>
+      </div>
+    </div>
+    <!-- second row -->
+    <div class="row slide-object">
+      <div class="col-md-3 custom-col mb-3">
+        <div class="approach-container1  approach-containers bg-netural-gray">
+          <h5>01.</h5>
+          <h2>Discovery & inspiration</h2>
+          <h5>To understand your lifestyle, taste, and space requirements — building a clear vision that reflects your
+            personality and enhances your home's comfort and beauty.</h5>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+      </div>
+      <div class="col-md-3 custom-col mb-3">
+        <div class="approach-container2  approach-containers bg-light-sage-green">
+          <h5>02.</h5>
+          <h2>Concept & style</h2>
+          <h5>To define your unique design story, selecting cohesive colors, materials, and furnishings that align
+            perfectly with your aesthetic and functional goals.</h5>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+      </div>
+      <div class="col-md-3 custom-col mb-3">
+        <div class="approach-container3  approach-containers bg-salmoon">
+          <h5>03.</h5>
+          <h2>Design & detailing</h2>
+          <h5>To refine layouts, textures, lighting, and décor elements — creating detailed visualizations that bring
+            your dream interiors to life, ready for transformation.</h5>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+      </div>
+      <div class="col-md-3 custom-col mb-3">
+        <div class="approach-container4  approach-containers bg-dark-green">
+          <h5>04.</h5>
+          <h2>Execution & styling</h2>
+          <h5>To bring the design into reality, managing every step from sourcing and installation to final styling,
+            ensuring a flawless and inspiring finished space.</h5>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+      </div>
+
+    </div>
+    <!-- third row -->
+    <div class="row" id="split-img">
+      <div class="col-md-4">
+        <img src="./images/design-bg.webp" alt="split-img">
+      </div>
+      <div class="col-md-8 d-none d-sm-block">
+        <img src="./images/split-img-1.png" alt="spllit-img-1">
+      </div>
+    </div>
+  </div>
+
+  <!-- our services -->
+  <div id="ourServices">
+    <img src="./images/muuto-outdoor.webp" alt="muuto-outdoor">
+    <div id="services-text" class="slide-object">
+      <h5>We help to achieve goals</h5>
+      <h2>After more than a decade
+        in the industry, we're proud to
+        completed over 340+ projects
+        that have helped shape our
+        local landscape.</h2>
+    </div>
+    <div id="services-text1" class="slide-object">
+      <h4>We've tackled projects of all sizes, from small-scale residential renovations to large-scale commercial
+        developments, always with the same dedication to exceeding your expectations.</h4>
+      <button class="btn btn-black ms-auto">
+        <i class="fa-solid fa-square-arrow-up-right icon-sm"></i>
+        Our Approach</button>
+    </div>
+  </div>
+
+  <!-- what we do -->
+  <div id="whatWeDo" class="container-fluid bg-light-sage-green">
+    <!-- first row -->
+    <div class="row">
+      <div class="col-md-8">
+        <h5>What we do</h5>
+        <h2>We develop unique design
+          languages and offer fresh
+          perspectives on established
+          methods and solutions for
+          every project.</h3>
+      </div>
+      <div class="col-md-4">
+        <h4>Our international team leverages its diverse backgrounds - in nationality, age, and experience - to gain a
+          clear advantage. Each member contributes to shaping Colram® as a stronger, more innovative architecture firm.
+        </h4>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3" role="tabpanel">
+        <!-- List group -->
+        <div class="list-group" id="myList" role="tablist">
+          <a class="list-group-item-action active" data-bs-toggle="list" href="#archi" role="tab">Architecture</a>
+          <a class="list-group-item-action" data-bs-toggle="list" href="#strategic" role="tab">Strategic Design</a>
+          <a class="list-group-item-action" data-bs-toggle="list" href="#interior" role="tab">Interior Design</a>
+          <a class="list-group-item-action" data-bs-toggle="list" href="#product" role="tab">Product Design</a>
+          <a class="list-group-item-action" data-bs-toggle="list" href="#landscape" role="tab">Landscape Design</a>
+          <a class="list-group-item-action" data-bs-toggle="list" href="#curatorial" role="tab">Curatorial Design</a>
+          <a class="list-group-item-action" data-bs-toggle="list" href="#lighting" role="tab">Lighting</a>
+        </div>
+      </div>
+      <div class="col-md-4 tab-content">
+        <div class="tab-pane active" id="archi" role="tabpanel">By fostering interdisciplinary collaboration, we create
+          winning concepts that ensure the highest possible profitability and the lowest possible risk for the
+          developer.</div>
+        <div class="tab-pane" id="strategic" role="tabpanel">Whether it's a patient in a hospital, a student at a
+          university, or a tourist on a harbor promenade, the goal is to create spaces that serve and inspire everyone.
+        </div>
+        <div class="tab-pane" id="interior" role="tabpanel">By fostering interdisciplinary collaboration, we create
+          winning concepts that ensure the highest possible profitability and the lowest possible risk for the
+          developer.</div>
+        <div class="tab-pane" id="product" role="tabpanel">Whether it's a patient in a hospital, a student at a
+          university, or a tourist on a harbor promenade, the goal is to create spaces that serve and inspire everyone.
+        </div>
+        <div class="tab-pane" id="landscape" role="tabpanel">From the first sketch, our team immerses itself in the soul
+          of the project - the initial concepts and ideas that shape everything from the structure to the product
+          design.</div>
+        <div class="tab-pane" id="curatorial" role="tabpanel">By fostering interdisciplinary collaboration, we create
+          winning concepts that ensure the highest possible profitability and the lowest possible risk for the
+          developer.</div>
+        <div class="tab-pane" id="lighting" role="tabpanel">After more than a decade in the industry, we're proud to
+          completed over 340+ projects that have helped shape our local landscape.</div>
+      </div>
+      <div class="col-md-5 d-none d-sm-block slide-object">
+        <img src="./images/archi-bg.png" alt="arhi-background">
+      </div>
+    </div>
+  </div>
+
+  <!-- recent insights -->
+  <div id="recentInsights" class="container-fluid bg-netural-gray">
+    <!-- first row -->
+    <div class="row">
+      <div class="col-6">
+        <h2>Recent Insights</h2>
+      </div>
+      <div class="col-6 d-flex flex-row-reverse">
+        <button class="btn btn-black">
+          <i class="fa-solid fa-square-arrow-up-right icon-sm"></i>
+          View All
+        </button>
+      </div>
+    </div>
+    <!-- second row -->
+    <div class="row slide-object">
+      <div class="col-md-3 mb-5">
+        <div class="container-relative">
+          <img src="./images/unseen-bg.webp" alt="unseen-bg">
+        </div>
+        <h5>August 24, 2025 4 min read</h5>
+        <h4>The Unseen Force: How Light and Shadow Shape Architectural Design</h4>
+        <h5>Dive into the powerful, yet often overlooked, role of light and shadow in architecture. This post goes
+          beyond solar panels and...</h5>
+        <button class="btn btn-gray">Case Study</button>
+        <button class="btn btn-gray">Perspectives</button>
+      </div>
+      <div class="col-md-3 mb-5">
+        <div class="container-relative">
+          <img src="./images/blueprint-bg.webp" alt="blueprint-bg">
+        </div>
+        <h5>August 23, 2025 4 min read</h5>
+        <h4>A Blueprint for Tomorrow: Sustainable Architecture Beyond the Basics</h4>
+        <h5>Sustainability is more than just a buzzword. This post goes beyond solar panels and green roofs to explore
+          the innovative materials....</h5>
+        <button class="btn btn-gray">Case Study</button>
+        <button class="btn btn-gray">Perspectives</button>
+      </div>
+      <div class="col-md-3 mb-5">
+        <div class="container-relative">
+          <img src="./images/insight-bg.webp" alt="insight-bg">
+        </div>
+        <h5>August 22, 2025 4 min read</h5>
+        <h4>From Humble Abode to Iconic Landmark: The Evolution of Design</h4>
+        <h5>Explore the fascinating history of the home, from ancient shelters to modern smart houses. This post goes
+          beyond solar panels and...</h5>
+        <button class="btn btn-gray">Case Study</button>
+        <button class="btn btn-gray">Perspectives</button>
+      </div>
+      <div class="col-md-3">
+        <div class="container-relative">
+          <img src="./images/finding-background.webp" alt="finding-background">
+        </div>
+        <h5>August 21, 2025 4 min read</h5>
+        <h4>The Art of Less: Finding Beauty in Minimalist Architectural Design</h4>
+        <h5>Discover the core principles behind minimalism in architecture. This post goes beyond solar panels and green
+          roofs to explore the innovative...</h5>
+        <button class="btn btn-gray">Case Study</button>
+        <button class="btn btn-gray">Perspectives</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="contactUs" class="container-fluid bg-peach text-center text-sm-start ">
+    <div class="row">
+      <div class="col-md-6">
+        <h6>Call Us</h6>
+        <h4>+6668851588</h4>
+        <h6>address</h6>
+        <h4>64/16 Tivanon, Talad, Kwan, Mueang Nonthaburi, Bangkok, Thailand, 10100</h4>
+        <h6 class="hover-underlined">get directions</h6>
+      </div>
+      <div class="col-md-3">
+        <h6>General enquiries</h6>
+        <h4 class="hover-underlined">customerService@gmail.com</h4>
+        <h6>New business</h6>
+        <h4 class="hover-underlined">homeDeco@gmail.com</h4>
+        <h6>Follow Us</h6>
+        <h4 class="hover-underlined">Facebook</h4>
+        <h4 class="hover-underlined">Instagram</h4>
+        <h4 class="hover-underlined">LinkedIn</h4>
+      </div>
+      <div class="col-md-3">
+        <h6>Stay in the loop</h6>
+        <h4>Sign up to stay in the loop!</h4>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Email Address" id="input-gmail">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2">SIGN UP NOW</button>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+          <label class="form-check-label" for="radioDefault1">
+            By sending this message, I agree that the data provided may be processed and used for the purpose of sending
+            the newsletter. I may at any time revoke my consent. (Data protection).
+          </label>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="d-inline-block" >© 2016-2025 Colabrio. All rights reserved </h4>
+        <h6 class="hover-underlined d-inline-block"> | Purchase</h6>
+      </div>
+      <div class="col-md-6 flex-row-reverse">
+        <h6 class="hover-underlined d-inline-block">Security</h6>
+        <h6 class="d-inline-block">|</h6>
+        <h6 class="hover-underlined d-inline-block">Privacy & Cookie Policy</h6>
+        <h6 class="d-inline-block">|</h6>
+        <h6 class="hover-underlined d-inline-block">Terms of Service</h6>
+      </div>
+    </div>
+  </div>
+  <a id="go-to-top" href="#my-page">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="./vendors/bootstrap5.3/bootstrap.bundle.min.js"></script>
+  <script src="./vendors/jquery/jquery-3.7.1.min.js"></script>
+  <script>
+    $(document).ready(() => {
+
+      $('.navbar .nav-link').click((event) => {
+        $('.navbar .nav-link').removeClass('active')
+        // use this $('.navbar .nav-link') instead of navButton to get all nav-links
+        const navButton = $(event.currentTarget)
+        navButton.addClass('active')
+      })
+      $(window).scroll(()=>{
+         const winTop = $(window).scrollTop();
+
+         const slideObjects = $('.slide-object');
+         const slideObject1 = slideObjects[0]
+         const slideObject2 = slideObjects[1]
+         const slideObject3 = slideObjects[2]
+         const slideObject4 = slideObjects[3]
+         const slideObject5 = slideObjects[4]
+         const slideObject6 = slideObjects[5]
+
+                // console.log(winTop)
+                if( winTop+500> $(slideObject1).offset().top ){
+                    $(slideObject1).addClass('slide')
+                }
+                if( winTop+500 > $(slideObject2).offset().top ){
+                    $(slideObject2).addClass('slide')
+                }
+                if( winTop+500 > $(slideObject3).offset().top ){
+                    $(slideObject3).addClass('slide')
+                }
+                if( winTop+500 > $(slideObject4).offset().top ){
+                      $(slideObject4).addClass('slide')
+                }
+                if( winTop+500 > $(slideObject5).offset().top ){
+                    $(slideObject5).addClass('slide')
+                }
+                if( winTop+500 > $(slideObject6).offset().top ){
+                    $(slideObject6).addClass('slide')
+                }
+       })
+       
+      $('#radioDefault1').click(() => {
+        document.getElementById('input-gmail').focus()
+      })
+
+      const triggerTabList = document.querySelectorAll('#myTab a')
+      triggerTabList.forEach(triggerEl => {
+        const tabTrigger = new bootstrap.Tab(triggerEl)
+
+        triggerEl.addEventListener('click', event => {
+          event.preventDefault()
+          tabTrigger.show()
+        })
+      })
+
+
+    })
+
+  </script>
+</body>
+
+</html>
