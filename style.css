@@ -201,25 +201,25 @@ h6{
     background-image: url(./images/insight-bg.webp);
     background-size: contain;
     color: #ffffff;
-    text-shadow: #329f8b;
+    : #329f8b;
 }
 .approach-container2:hover{
     background-image: url(./images/concept-bg.webp);
     background-size: contain;
     color: #ffffff;
-    text-shadow: #329f8b;
+    text-shadow: 1px 1px 3px #329f8b;
 }
 .approach-container3:hover{
     background-image: url(./images/design-bg.webp);
     background-size: contain;
     color: #ffffff;
-    text-shadow: #329f8b;
+    text-shadow: 1px 1px 3px #329f8b;
 }
 .approach-container4:hover{
     background-image: url(./images/production-bg.webp);
     background-size: contain;
     color: #ffffff;
-    text-shadow: #329f8b;
+    text-shadow: 1px 1px 3px #329f8b;
 }
 #approach img{
     margin-top: 50px;
@@ -327,7 +327,7 @@ h6{
     }
 }
 
-@media screen  and (max-width:770px) {
+@media screen  and (max-width:767.98px) {
     #header,
     #header .col-md-8 ,
     #header .col-md-4
